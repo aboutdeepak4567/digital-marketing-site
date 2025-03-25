@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-text-color: #28282f;
+  --secondary-text-color: #797e8d;
+  --accent-color: #5a58e9;
+  --accent-color-dark: #1d69a3;
+  --padding-inline-section: 20px;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  color: var(--primary-text-color);
+}
+
+/* Navbar */
+.main-nav {
+  justify-content: space-between;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+.company-logo img {
+  width: 50px;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+/* Header */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px var(--padding-inline-section);
+}
+
+.header-left h1 {
+  font-size: 3rem;
+}
+
+.header-left p {
+  font-size: 1.5rem;
+  color: var(--secondary-text-color);
+}
+
+.primary-button {
+  background-color: var(--accent-color);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.primary-button:hover {
+  background-color: var(--accent-color-dark);
+}
+
+.header-right img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Examples Section */
+.examples-section {
+  padding: 80px var(--padding-inline-section);
+  background: #f9f9f9;
+}
+
+.examples-header h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.examples-area {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.examples-card {
+  width: calc(25% - 20px);
+  height: 300px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: 0.3s;
+}
+
+.examples-card:hover {
+  box-shadow: 0 0 10px #888;
+}
+
+.card-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* CTA Section */
+.cta-section {
+  background: #5a58e9;
+  color: white;
+  text-align: center;
+  padding: 100px 30px;
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+  background: #28282f;
+  color: white;
+  padding: 60px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-column h4 {
+  font-size: 1.5rem;
+}
+
+.link-column a {
+  color: white;
+  margin: 10px 0;
+  display: block;
+  transition: 0.3s;
+}
+
+.link-column a:hover {
+  color: #5a58e9;
+}
