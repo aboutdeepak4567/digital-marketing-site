@@ -66,6 +66,10 @@ a:hover {
   color: var(--secondary-text-color);
 }
 
+.get-started-button {
+  margin-top: 30px; /* Added margin to move button lower */
+}
+
 .primary-button {
   background-color: var(--accent-color);
   color: #fff;
