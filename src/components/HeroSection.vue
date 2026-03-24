@@ -15,12 +15,44 @@
           <a href="#services" class="secondary-button">Our Services</a>
         </div>
       </div>
+
       <div class="header-right fade-in">
-        <img src="/images/banner.png" alt="Creative Agency Banner" />
+        <div
+          class="hero-img-wrapper"
+          @mousemove="onMouseMove"
+          @mouseleave="onMouseLeave"
+          :style="imgStyle"
+        >
+          <img src="/images/hero_illustration.png" alt="Creative Agency Digital Marketing" />
+          <!-- Floating badge chips -->
+          <div class="hero-chip chip-1">🎨 Brand Design</div>
+          <div class="hero-chip chip-2">📈 ROI Focused</div>
+          <div class="hero-chip chip-3">💡 Creative First</div>
+        </div>
       </div>
     </div>
   </header>
 </template>
 
 <script setup>
+import { ref } from 'vue'
+
+const imgStyle = ref({})
+
+function onMouseMove(e) {
+  const rect = e.currentTarget.getBoundingClientRect()
+  const x = ((e.clientX - rect.left) / rect.width - 0.5) * 18
+  const y = ((e.clientY - rect.top) / rect.height - 0.5) * -18
+  imgStyle.value = {
+    transform: `perspective(900px) rotateY(${x}deg) rotateX(${y}deg) scale(1.03)`,
+    transition: 'transform 0.1s ease',
+  }
+}
+
+function onMouseLeave() {
+  imgStyle.value = {
+    transform: 'perspective(900px) rotateY(0deg) rotateX(0deg) scale(1)',
+    transition: 'transform 0.5s ease',
+  }
+}
 </script>

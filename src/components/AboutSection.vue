@@ -20,7 +20,7 @@
           </a>
         </div>
         <div class="about-image">
-          <img src="/images/advertisement.png" alt="About Creative Agency" />
+          <img src="/images/about_agency.png" alt="About Creative Agency" />
         </div>
       </div>
 
