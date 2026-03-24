@@ -62,10 +62,10 @@ const stats = ref([
 ])
 
 const team = [
-  { name: 'Alex Carter',   role: 'CEO & Creative Director', initials: 'AC', color: '#5a58e9' },
+  { name: 'Bidwan Panda',  role: 'CEO & Creative Director', initials: 'BP', color: '#5a58e9' },
   { name: 'Priya Sharma',  role: 'Lead Designer',           initials: 'PS', color: '#e95889' },
-  { name: 'Marcus Lee',    role: 'Head of Development',     initials: 'ML', color: '#58e9a0' },
-  { name: 'Sofia Nguyen',  role: 'Marketing Strategist',    initials: 'SN', color: '#e9b058' },
+  { name: 'Dipak Swain',      role: 'Head of Development',  initials: 'DS', color: '#58e9a0' },
+  { name: 'Sibasankar Singh', role: 'Marketing Strategist', initials: 'SS', color: '#e9b058' },
 ]
 
 function animateCounters() {

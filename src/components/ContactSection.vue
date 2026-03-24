@@ -15,16 +15,16 @@
           </div>
           <div class="contact-item">
             <span class="contact-icon">📞</span>
-            <span>+1 (555) 012-3456</span>
+            <span>+91-9668404058</span>
           </div>
           <div class="contact-item">
             <span class="contact-icon">📍</span>
-            <span>123 Design Street, San Francisco, CA</span>
+            <span>#942, 8th Cross, 16th Main Road, BTM 2nd Stage, Bangalore 560076</span>
           </div>
         </div>
 
         <div class="contact-socials">
-          <a href="#" aria-label="LinkedIn" class="social-icon">in</a>
+          <a href="https://www.linkedin.com/in/dipak-kumar-swain-88375a169/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-icon">in</a>
           <a href="#" aria-label="Twitter" class="social-icon">𝕏</a>
           <a href="#" aria-label="Instagram" class="social-icon">ig</a>
           <a href="#" aria-label="GitHub" class="social-icon">gh</a>
