@@ -1,9 +1,9 @@
 <template>
-  <section id="contact" class="cta-section">
-    <div class="cta-section-container container">
-      <h2>Get Started with Us!</h2>
-      <p>Reach out to build your next big project.</p>
-      <a href="#contact" class="primary-button">Contact Us</a>
+  <section class="cta-section">
+    <div class="cta-inner container">
+      <h2>Ready to Grow Your Business?</h2>
+      <p>Join 200+ brands who trust us to deliver results that matter.</p>
+      <a href="#contact" class="cta-btn">Start Your Project →</a>
     </div>
   </section>
 </template>
